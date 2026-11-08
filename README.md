@@ -8,8 +8,8 @@ Explore world history and geopolitical borders from 3000 BCE to the present day 
 - **Historical atlas:** empire and region borders, sub-regions and archaeological sites
 - **Conflict zones:** active and historical conflicts shown on the map
 - **Year snapshots:** a summary of the world in any chosen year
-- **AI historian chat:** ask questions about world history
-- **What-If simulator:** explore alternate-history scenarios
+- **Physical Geography:** see what the world looks physically
+- **Historical sites:** under the history of ancient ruins and archeological sites
 - **Search:** find leaders, places and events
 
 ## Tech stack
