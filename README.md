@@ -24,11 +24,14 @@ React, TypeScript, Vite, Tailwind CSS, D3-geo, Express, and the Google Gemini AP
    ```
    npm install
    ```
-3. Start the app:
+2. Start the app:
    ```
    npm run dev
    ```
-
+3. Open http://localhost:3000
+   
 ## Deploy
 
 The project includes a Netlify config (`netlify.toml`). Set `GEMINI_API_KEY` as an environment variable in your Netlify site settings. Never commit your key to the repository.
+
+   ![ChronoMap screenshot]("C:\Users\Hafid\Pictures\Screenshots\Screenshot 2026-11-08 210654.png")
