@@ -24,15 +24,10 @@ React, TypeScript, Vite, Tailwind CSS, D3-geo, Express, and the Google Gemini AP
    ```
    npm install
    ```
-2. Create a file named `.env.local` in the project folder (see `.env.example`) and add your Gemini API key:
-   ```
-   GEMINI_API_KEY="your-key-here"
-   ```
 3. Start the app:
    ```
    npm run dev
    ```
-4. Open http://localhost:3000
 
 ## Deploy
 
