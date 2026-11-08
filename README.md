@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ChronoMap: Interactive Historical World Atlas
 
-# Run and deploy your AI Studio app
+Explore world history and geopolitical borders from 3000 BCE to the present day on an interactive map.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/c187884f-17c2-401b-8825-5dc330d849b9
+- **Timeline scrubber:** move through history year by year and watch borders, rulers and empires change
+- **Historical atlas:** empire and region borders, sub-regions and archaeological sites
+- **Conflict zones:** active and historical conflicts shown on the map
+- **Year snapshots:** a summary of the world in any chosen year
+- **AI historian chat:** ask questions about world history
+- **What-If simulator:** explore alternate-history scenarios
+- **Search:** find leaders, places and events
 
-## Run Locally
+## Tech stack
 
-**Prerequisites:**  Node.js
+React, TypeScript, Vite, Tailwind CSS, D3-geo, Express, and the Google Gemini API.
 
+## Run locally
+
+**Prerequisites:** [Node.js](https://nodejs.org/)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```
+   npm install
+   ```
+2. Create a file named `.env.local` in the project folder (see `.env.example`) and add your Gemini API key:
+   ```
+   GEMINI_API_KEY="your-key-here"
+   ```
+3. Start the app:
+   ```
+   npm run dev
+   ```
+4. Open http://localhost:3000
+
+## Deploy
+
+The project includes a Netlify config (`netlify.toml`). Set `GEMINI_API_KEY` as an environment variable in your Netlify site settings. Never commit your key to the repository.
