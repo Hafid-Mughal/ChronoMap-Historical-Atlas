@@ -1,0 +1,6 @@
+{
+  "name": "ChronoAtlas - Interactive Historical World Map & Era Explorer",
+  "description": "Explore world history and geopolitical borders from 3000 BCE to the present day, featuring authentic historical atlas remapping, interactive conflict zones, and an AI What-If counterfactual simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
